@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Hivap Shop</title>
+</head>
+
+<body class="light-more">
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <!-- logo -->
+                <a href="#!"><img src="/assets/logo/logo.svg" alt="hivap" class="logo"></a>
+                <!-- nav -->
+                <nav class="nav-bar">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Danh mục</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Giỏ hàng</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Yêu thích</a></li>
+                    </ul>
+                </nav>
+                <!-- cta-btn -->
+                <div class="header-action">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                    <a href="#" class="more-header login" id="signin-link">Login</a>
+                    <a href="#" class="more-header signup" id="signup-link">Sign Up</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="login-container">
+                <!-- Main-left -->
+                <div class="media">
+                    <figure class="login-image">
+                        <img src="/assets/img/login-img-big.png" alt="" class="media-img img-big">
+                        <img src="/assets/img/login-img-small.png" alt="" class="media-img img-small">
+                    </figure>
+                </div>
+                <!-- Main-right -->
+                <div class="content ">
+                    <div id="sign-in">
+                        <form class="form-content sign-in">
+                            <div class="heading-login">
+                                <h1 style="padding-bottom: 5px;">Hello!</h1>
+                                <h1>Welcome back</h1>
+                            </div>
+                            <input type="text" id="username" class="input" placeholder="User Name" required>
+                            <input type="password" id="password" class="input" placeholder="Password" required>
+                            <div class="flex-check ">
+                                <!-- <div class="check-box ">
+                                    <input type="checkbox" id=" ">
+                                    <label for=" ">Remember me</label>
+                                </div> -->
+                                <span class="span ">Forgot password?</span>
+                            </div>
+                            <button type="submit" class="btn btn-login" id="loginpage">Sign In</button>
+                            <p>Or continue with</p>
+                            <div class="login-social">
+                                <a class="btn-social"><img src="/assets/logo/goole-logo.svg " alt="Goole "></a>
+                                <a class="btn-social"><img src="/assets/logo/apple-logo.svg " alt="Apple "></a>
+                                <a class="btn-social"><img src="/assets/logo/facebook-logo.svg " alt="Facebook "></a>
+                            </div>
+                            <p>Don't have an account? <a href="#" id="signup-link">Sign Up</a></p>
+                            <p id="error-message" style="color: red; display: none;">Invalid credentials. Please try again.</p>
+                        </form>
+                    </div>
+                    <div id="sign-up" style="display: none;">
+                        <form class="form-content sign-up">
+                            <h1 class="heaing-signup">Hello! Friend</h1>
+                            <input type="text" name=" " id=" " class="input " placeholder="Ho va ten ">
+                            <input type="email" class="input " placeholder="Email ">
+                            <input type="password" class="input " placeholder="Password ">
+
+                            <button class="btn btn-login ">Sign up</button>
+                            <p> Or continue with </p>
+                            <div class="login-social ">
+                                <button class="btn-social "><img src="/assets/logo/goole-logo.svg " alt="Goole "></button>
+                                <button class="btn-social "><img src="/assets/logo/apple-logo.svg " alt="Apple "></button>
+                                <button class="btn-social "><img src="/assets/logo/facebook-logo.svg " alt="Facebook "></button>
+                            </div>
+                            <p>Have an account?
+                                <a href="# " id="signin-link">Sign In</a>
+                            </p>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/assets/js/login.js "></script>
+</body>
+
+
+</html>

@@ -967,6 +967,8 @@ a {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    border-bottom: 1px solid #272d40;
+    padding-bottom: 20px;
 }
 
 .footer img {
@@ -1003,6 +1005,122 @@ a {
 
 .footer-intro .social-footer a {
     padding: 10px;
-    border: 2px solid #2b2c37;
+    border-radius: 10px;
+    color: #ffa5d6;
+    background-color: #16171d;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.footer-intro .social-footer a:hover {
     border-radius: 50%;
+    color: #fff;
+    background-color: #162116;
+}
+
+.footer-content .footer-policy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    text-align: center;
+    width: 400px;
+}
+
+.footer-policy .policy {
+    font-size: 17px;
+    font-weight: 500;
+    color: #272d40;
+    margin-bottom: 10px;
+}
+
+.footer-policy a {
+    color: #272d40;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.footer-policy a:hover {
+    color: #ffa5d6;
+    text-decoration: underline;
+}
+
+.footer-content .footer-action {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.footer-action .footer-pay {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.footer-pay .img {
+    height: 67.5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.footer-action .footer-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-phone .phone {
+    font-size: 20px;
+    font-weight: 500;
+    color: #272d40;
+}
+
+.footer-action a {
+    color: #272d40;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.footer-action a:hover {
+    color: #ffa5d6;
+}
+
+.footer-content .footer-app {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
+.footer-app .app {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.app img {
+    border: 2px solid #2b2c37;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.app img:hover {
+    border-color: #ffa5d6;
+}
+
+.footer-app .content {
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    color: #272d40;
 }

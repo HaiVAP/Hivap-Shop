@@ -11,7 +11,7 @@
 }
 
 body {
-    background: #162116;
+    background: linear-gradient(to right, #ffa5d6, #75b1df);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -951,7 +951,6 @@ a {
 
 .footer {
     margin-top: 80px;
-    background: linear-gradient(to right, #38f5f8, #ffa5d6);
     padding: 20px;
 }
 

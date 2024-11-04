@@ -1123,3 +1123,71 @@ a {
     width: 80%;
     color: #272d40;
 }
+
+
+/* ============ product.html ============= */
+
+.product-detail {
+    padding-top: 75px;
+}
+
+.product-detail .product-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.product-content .media {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-content .media .image img {
+    width: 100px;
+}
+
+.product-content .media .image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    height: 400px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.product-content .media .shadow {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.9);
+}
+
+.product-content .media .content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-content .media .content .name {
+    font-size: 24px;
+    font-weight: 500;
+    color: #272d40;
+}
+
+.product-content .media .content .assess {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.product-content .media .content .assess .assess-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-content .media .content .assess-star .star {
+    color: #ffeb3b;
+}
